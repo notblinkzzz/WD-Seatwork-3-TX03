@@ -145,28 +145,96 @@ header.design-four-header * {
     justify-content: space-between;
     padding: .7rem 10vw;
     align-items: center;
-    background-image:url(../img/background-img.jpg);
+    background-image:url(../img/background-img-geometry.jpg);
+    background-size: cover;
 
     & > img.logo {
         height: 45px;
     }
-    & > .navigation {
-        display: flex;
-        gap: 1rem;
-        justify-content: center;
-        align-items: center;
-        background-color: transparent;
-        border: 10px grey;
+
+    .nav-border-left {
+        position: absolute;
+        left: 50%;
         border-radius: 60px;
-        width: 35vw;
+        border: 2px black solid;
+        background-color: rgb(0, 0, 0,0.8);
+        backdrop-filter: blur(100px);
+        width: 37vw;
+
+    }
+    .navigation {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
 
         & > .navigation-content {
             color: aliceblue;
-            font-weight: 800;
+            font-weight: 600;
+            font-size: 1.5rem;
+        }
+    }
+
+    .nav-border-right {
+        position: absolute;
+        left: 90vw;
+        border-radius: 60px;
+        border: 2px black solid;
+        background-color: rgb(0, 0, 0,0.8);
+        backdrop-filter: blur(100px);
+        width: 5vw;
+    }
+
+    .navigation-right {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+
+        & > .navigation-right-icon {
+            color: aliceblue;
+            font-weight: 600;
             font-size: 1.5rem;
         }
     }
 }
 
+/* Dev */
+/* header.design-five-header,
+header.design-five-header * {
+    outline: 2px red dotted; 
+} */
+
+.design-five-header {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: .7rem 10vw;
+    align-items: center;
+    /* background-image:url(../img/background-img-space.jpg);
+    background-size: cover; */
+    color: white;
+
+    & > img.logo {
+        height: 100px;
+    }
+
+    .info {
+        color: black;
+    }
+
+    .top-nav {
+        display: flex;
+        background-color: grey;
+        height: 40%;
+        width: 100vw;
+    }
+    .top-left-nav {
+        display: flex;
+    }
+
+    .top-right-nav {
+        display: flex;
+    }
+
+}
 
 
