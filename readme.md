@@ -114,4 +114,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Search Bar | To have a neat looking search bar. | https://www.youtube.com/watch?v=vkV9GSYaExI&t=310s |
+| Search Bar | To have a neat looking search bar. | https://www.youtube.com/watch?v=vkV9GSYaExI |
+| Search Bar Animation | To have a hover animation on the search bar. | https://www.youtube.com/watch?v=AmdIfgxMqY8 |
+| Background Image | To have a background image on the header and footer. | https://unsplash.com/ |

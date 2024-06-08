@@ -40,8 +40,7 @@ header.design-one-header * {
     justify-content: space-between;
     padding: .7rem 4vw .7rem 4vw;
     align-items: center;
-    background-image:url(../img/background-img-geometry.jpg);
-    background-size: cover;
+    background-color: black;
 
     .logo {
         height: 50px;
@@ -52,7 +51,7 @@ header.design-one-header * {
         align-items: center;
 
         & > .navigation-content {
-            color: aliceblue;
+            color: rgba(255, 255, 255, 0.482);
             font-weight: 800;
             font-size: 1.2rem;
         }
@@ -303,21 +302,31 @@ header.design-five-header * {
     justify-content: space-between;
     padding: .7rem 4vw .7rem 4vw;
     align-items: center;
-    background-color: #2C3E50;
+    background-color: black;
 
     & > img.logo {
         height: 50px;
     }
     & > .navigation {
         display: flex;
+        height: 100%;
         gap: 1rem;
         align-items: center;
 
         & > .navigation-content {
-            color: aliceblue;
+            display: flex;
+            color: white;
             font-weight: 800;
             font-size: 1.2rem;
+            justify-content: center;
+            align-items: center;
         }
+    }
+    .navigation-content:not(:hover) {
+        color: rgba(255, 255, 255, 0.482);
+    }
+    .navigation-content:hover {
+        border-bottom:2px white solid;
     }
 }
 
@@ -356,7 +365,7 @@ header.design-five-header * {
             padding: 20px;
         }
         .box:hover input {
-            width: 320px;
+            width: 330px;
         }
         .box i {
             font-size: 20px;
@@ -364,7 +373,6 @@ header.design-five-header * {
         }
 
         .box > input {
-            flex: 1;
             width: 0;
             height: 40px;
             border: none;
@@ -406,6 +414,14 @@ header.design-five-header * {
         width: 100%;
         justify-content: space-evenly;
     }
+    .navigation-content:hover{
+        height: 100%;
+        align-items: center;
+        background-color: rgba(146, 146, 146, 0.487);
+        border-bottom: 2px black solid;
+    }
+
+
 }
 
 
