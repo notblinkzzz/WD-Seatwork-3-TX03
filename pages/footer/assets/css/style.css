@@ -1,0 +1,28 @@
+* {     /*THIS IS FOR HOME*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    height: 250vh;
+    width: 98.2vw;
+    padding: .5vw;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d3d3d3;
+}
+
+section {
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
