@@ -51,7 +51,7 @@ header.design-one-header * {
         align-items: center;
 
         & > .navigation-content {
-            color: rgba(255, 255, 255, 0.482);
+            color: white;
             font-weight: 800;
             font-size: 1.2rem;
         }
@@ -79,11 +79,15 @@ header.design-two-header * {
         display: flex;
         gap: 1rem;
         align-items: center;
+        width: 50%;
+        justify-content: space-between;
 
         & > .navigation-content {
-            color: aliceblue;
+            color: white;
             font-weight: 800;
             font-size: 1.2rem;
+            width: 100%;
+            text-align: center;
         }
 
         & > .call-to-action {
@@ -330,7 +334,111 @@ header.design-five-header * {
     }
 }
 
+.design-two-animated-header {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: .7rem 4vw .7rem 4vw;
+    align-items: center;
+    background: black;
 
+    .logo {
+        height: 45px;
+    }
+    & > .navigation {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        width: 50%;
+        justify-content: space-between;
+
+        & > .navigation-content {
+            color: white;
+            font-weight: 800;
+            font-size: 1.2rem;
+            width: 100%;
+            text-align: center;
+        }
+
+        & > .call-to-action {
+            border: 3px white solid;
+            background-color: black;
+            color: #85f700;
+            padding: .5rem 1rem;
+            border-radius: 60px;
+        }
+        & > .navigation-content:hover {
+            border-bottom: 4px white solid;
+            bottom: -4px;
+            background-color: #85f700;
+            border-radius: 10px 10px 10px 10px;
+            color: rgb(0, 0, 0);
+        }
+
+        & > .call-to-action:hover {
+            border: 3px #85f700 solid;
+            color: black;
+            background-color: white;
+            border-radius: 60px;
+        }
+    }
+}
+
+.design-three-animated-header {
+    display: flex;
+    width: 100vw;
+    height: 14.2vh;
+    justify-content: space-between;
+    padding: .7rem 4vw .7rem 4vw;
+    align-items: center;
+    background-color: black;
+
+    .pop-up-logo-div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .logo {
+        height: 100px;
+    }
+    .pop-up-logo {
+        display: none;
+    }
+    & > .navigation {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        & > .navigation-content {
+            color: white;
+            font-weight: 700;
+            font-size: 1.6rem;
+            color: #85f700;
+        }
+        & > .navigation-icon {
+            font-weight: 800;
+            font-size: 1.8rem;
+            color: rgba(182, 180, 180, 0.623);
+        }
+
+    }
+    .pop-up-logo-div:hover .pop-up-logo{
+        display: flex;
+        height: 10vh;
+    }
+    .fa-facebook-f:hover {
+        color: #1877F2;
+    }
+    .fa-instagram:hover {
+        color:white;
+    }
+    .fa-twitter:hover {
+        color: #1DA1F2;
+    }
+    .fa-youtube:hover {
+        color: #FF0000;
+    }
+}
 
 .design-five-animated-header {
     display: flex;
