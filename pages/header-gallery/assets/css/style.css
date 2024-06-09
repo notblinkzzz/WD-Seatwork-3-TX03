@@ -453,10 +453,11 @@ header.design-five-header * {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: black;
+        background-color: #c01e29;
         height: 63%;
         width: 100vw;
     }
+        
         .logo {
             position: absolute;
             height: 70px;
@@ -467,7 +468,7 @@ header.design-five-header * {
             left: 75%;
             height: 50px;
             cursor: pointer;
-            background-color: black;
+            background-color: #c01e29;
             border-radius: 30px;
             border: 3px white solid;
             display: flex;
@@ -491,7 +492,7 @@ header.design-five-header * {
             padding-left: 10px;
             transition: 0.8s;
             background: transparent;
-            background-color: black;
+            background-color: #c01e29;
             color: white;
         }
         ::placeholder {
@@ -526,8 +527,8 @@ header.design-five-header * {
         height: 100%;
         align-items: center;
         background-color: rgba(146, 146, 146, 0.487);
-        border-bottom: 2px black solid;
-        margin-bottom: -2px;
+        border-bottom: 2px #c01e29 solid;
+        padding-top: 2px;
     }
 }
 
