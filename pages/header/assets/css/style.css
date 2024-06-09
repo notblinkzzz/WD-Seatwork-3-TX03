@@ -287,20 +287,9 @@ header.design-five-header * {
 }
 
 
-
-
-
-
-
 /* ANIMATED */
 
-
-
-
-
-
-
-.design-one-animated-header {
+.design-one-animated-header {                   /*---------ONE--------------*/
     display: flex;
     width: 100vw;
     justify-content: space-between;
@@ -331,10 +320,11 @@ header.design-five-header * {
     }
     .navigation-content:hover {
         border-bottom:2px white solid;
+        margin-bottom: -2px;
     }
 }
 
-.design-two-animated-header {
+.design-two-animated-header {                   /*---------TWO--------------*/
     display: flex;
     width: 100vw;
     justify-content: space-between;
@@ -384,7 +374,7 @@ header.design-five-header * {
     }
 }
 
-.design-three-animated-header {
+.design-three-animated-header {                 /*---------THREE--------------*/
     display: flex;
     width: 100vw;
     height: 14.2vh;
@@ -426,21 +416,35 @@ header.design-five-header * {
         display: flex;
         height: 10vh;
     }
+    .navigation-content:not(:hover){
+        color: #84f7007c;
+    }
+    .navigation-content:hover {
+        color: #85f700;
+        text-shadow: 0px 10px 30px white;
+        border-bottom: 2px white solid;
+        margin-bottom: -2px;
+    }
     .fa-facebook-f:hover {
         color: #1877F2;
+        text-shadow: 0px 10px 30px white;
     }
     .fa-instagram:hover {
         color:white;
+        text-shadow: 0px 10px 30px white;
     }
     .fa-twitter:hover {
         color: #1DA1F2;
+        text-shadow: 0px 10px 30px white;
     }
     .fa-youtube:hover {
         color: #FF0000;
+        text-shadow: 0px 10px 30px white;
+
     }
 }
 
-.design-five-animated-header {
+.design-four-animated-header {                /*---------FOUR--------------*/
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -527,11 +531,205 @@ header.design-five-header * {
         align-items: center;
         background-color: rgba(146, 146, 146, 0.487);
         border-bottom: 2px black solid;
+        margin-bottom: -2px;
     }
-
-
 }
 
 
+.design-five-animated-header {      /*---------FIVE--------------*/
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    height: 30vh;
+    width: 100vw;
+
+    .top-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        height: 36.2%;
+        width: 100vw;
+    }
+        .logo {
+            position: absolute;
+            height: 70px;
+        }
+
+        .box {
+            position: absolute;
+            left: 75%;
+            height: 50px;
+            cursor: pointer;
+            background-color: black;
+            border-radius: 30px;
+            border: 3px white solid;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        .box:hover input {
+            width: 330px;
+        }
+        .box i {
+            font-size: 20px;
+            color: white;
+        }
+
+        .box > input {
+            width: 0;
+            height: 40px;
+            border: none;
+            outline: none;
+            font-size: 18px;
+            padding-left: 10px;
+            transition: 0.8s;
+            background: transparent;
+            background-color: black;
+            color: white;
+        }
+        ::placeholder {
+            color: white;
+        }
+
+    .middle-div {
+        display: flex;
+        height: 63.8%;
+        width: 100%;
+        background-color: white;
+        a {
+            font-weight: 600;
+            color: black;
+        }
+
+        .teams {
+            display: flex;
+            height: 6.5vh;
+            width: 16.7vw;
+            background-color: white;
+            align-items: center;
+            justify-content: center;
+        }
+        .content-teams {
+            display: none;
+        }
+        .drop-down-div-teams:hover .content-teams {
+            display: flex;
+            width: 16.7vw;
+            justify-content: center;
+            align-items: center;
+            height: 33.2%;
+        }
+        .drop-down-div-teams:hover .teams {
+            background-color: rgba(146, 146, 146, 0.487);
+            border-bottom: 2px black solid;
+            padding-top: 2px;
+        }
+        .teams-one:hover {
+            background-color: rgba(146, 146, 146, 0.487);
+        }
+        .teams-two:hover {
+            background-color: rgba(146, 146, 146, 0.487);
+        }
+
+        .hoodies,
+        .news,
+        .about {
+            display: flex;
+            height: 6.5vh;
+            width: 16.7vw;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+        }
+        .hoodies:hover {
+            background-color: rgba(146, 146, 146, 0.487);
+            border-bottom: 2px black solid;
+            margin-top: 1px;
+        }
+        .news:hover {
+            background-color: rgba(146, 146, 146, 0.487);
+            border-bottom: 2px black solid;
+            margin-top: 1px;
+        }
+        .about:hover {
+            background-color: rgba(146, 146, 146, 0.487);
+            border-bottom: 2px black solid;
+            margin-top: 1px;
+        }
+
+        .accessories {
+            display: flex;
+            height: 6.5vh;
+            width: 16.7vw;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+        }
+        .content-accessories {
+            display: none;
+        }
+        .drop-down-div-accessories:hover .content-accessories{
+            display: flex;
+            width: 16.7vw;
+            justify-content: center;
+            align-items: center;
+            height: 33.2%;
+        }
+        .drop-down-div-accessories:hover .accessories {
+            background-color: rgba(146, 146, 146, 0.487);
+            border-bottom: 2px black solid;
+            padding-top: 2px;
+        }
+        .accessories-one:hover {
+            background-color: rgba(146, 146, 146, 0.487);
+        }
+        .accessories-two:hover {
+            background-color: rgba(146, 146, 146, 0.487);
+        }
+
+        .where {
+            display: flex;
+            height: 6.5vh;
+            width: 16.5vw;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+        }
+        .content-where {
+            display: none;
+        }
+        .drop-down-div-where:hover .content-where{
+            display: flex;
+            width: 16.5vw;
+            justify-content: center;
+            align-items: center;
+            height: 33.3%;
+        }
+        .drop-down-div-where:hover .where {
+            background-color: rgba(146, 146, 146, 0.487);
+            border-bottom: 2px black solid;
+            padding-top: 2px;
+        }
+        .where-one:hover {
+            background-color: rgba(146, 146, 146, 0.487);
+        }
+        .where-two:hover {
+            background-color: rgba(146, 146, 146, 0.487);
+        }
+
+    }
+
+/* .navigation-content:hover {
+        height: 100%;
+        align-items: center;
+        background-color: rgba(146, 146, 146, 0.487);
+        border-bottom: 1px black solid;
+        margin-bottom: -1px;
+    } */
+
+
+
+}
 
 
