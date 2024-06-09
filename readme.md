@@ -117,3 +117,5 @@ WD-ProjectName
 | Search Bar | To have a neat looking search bar. | https://www.youtube.com/watch?v=vkV9GSYaExI |
 | Search Bar Animation | To have a hover animation on the search bar. | https://www.youtube.com/watch?v=AmdIfgxMqY8 |
 | Background Image | To have a background image on the header and footer. | https://unsplash.com/ |
+| Glowing Effect | To have a glowing effect when hovered on an element. | https://www.youtube.com/watch?v=xnltEHWWjiM |
+
