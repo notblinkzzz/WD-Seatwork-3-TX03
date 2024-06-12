@@ -1,4 +1,4 @@
-* {     /*THIS IS FOR HOME*/
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -358,7 +358,7 @@ header.design-five-header * {
             border-radius: 60px;
         }
         & > .navigation-content:hover {
-            border-bottom: 4px white solid;
+            border-bottom: 4px #3b6b04 solid;
             bottom: -4px;
             background-color: #85f700;
             border-radius: 10px 10px 10px 10px;

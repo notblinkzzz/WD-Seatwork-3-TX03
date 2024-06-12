@@ -118,4 +118,7 @@ WD-ProjectName
 | Search Bar Animation | To have a hover animation on the search bar. | https://www.youtube.com/watch?v=AmdIfgxMqY8 |
 | Background Image | To have a background image on the header and footer. | https://unsplash.com/ |
 | Glowing Effect | To have a glowing effect when hovered on an element. | https://www.youtube.com/watch?v=xnltEHWWjiM |
+| Design 1 Leviatan Logo | A really good looking logo. | https://leviatan.gg/ |
+| Design 4 Fun Plus Phoenix Logo | A really good looking logo. | https://x.com/FPX_Esports |
+
 
