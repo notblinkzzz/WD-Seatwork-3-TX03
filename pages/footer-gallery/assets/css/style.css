@@ -149,7 +149,7 @@ section {
     }
 }
 
-.design-three-footer {                               /*----------------------THREE-----------------------*/           
+.design-three-footer {                               /*----------------------THREE-----------------------*/
     display: flex;
     width: 100vw;
     height: 44vh;
@@ -322,7 +322,6 @@ section {
                 color: #65df29;
             }
         }
-
     }
     & > .right-div-container {
         display: flex;
