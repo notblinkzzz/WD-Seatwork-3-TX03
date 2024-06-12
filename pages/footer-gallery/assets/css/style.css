@@ -157,7 +157,6 @@ section {
     padding: 1rem 13vw 5.4rem 13vw;  /*top right bottom left*/
     background: white;
     flex-direction: column;
-    /* filter: invert(95%) hue-rotate(180deg);  */
 
     & > .top-div-container {
         display: flex;
@@ -179,7 +178,6 @@ section {
             display: flex;
             width: 70%;
             gap: 8rem;
-
 
             h1 {
                 color: black;
@@ -207,6 +205,46 @@ section {
             flex-direction: column;
             justify-content: flex-end;
 
+            .top-div {
+                display: flex;
+                height: 20%;
+                gap: .7rem;
+
+                p {
+                    color: black;
+                }
+                .text-area {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    width: 76%;
+                }
+
+                .toggle-div {
+                    display: flex;
+                    width: 24%;
+                    align-items: flex-end;
+
+                    .outer {
+                        display: flex;
+                        width: 60px;
+                        height: 30px;
+                        background-color: black;
+                        border-radius: 50px;
+                        align-items: center;
+                        padding: 0rem 0vw 0rem .3vw; /*top right bottom left*/
+
+                        .inner {
+                            display: flex;
+                            width: 20px;
+                            height: 20px;
+                            background-color: white;
+                            border-radius: 20px;
+                        }
+                    }
+                }
+            }
+
             .middle-div {
                 display: flex;
                 height: 30%;
@@ -225,6 +263,8 @@ section {
                     font-size: 1.5rem;
                     width: 2.811vw;
                     height: 5vh;
+                    background-color: white;
+                    border: 1.5px black solid;
                     color: black;
                 }
 
@@ -322,24 +362,12 @@ section {
 
 
 
-/* animated */
-
-
-
-
-
-
-
-
-
-
-
-
+/* ANIMATED */
 
 
 
 .container {                            /*---------------------------THIRD ANIMATED--------------------------------*/
-    position: relative;
+    position: relative;                 /*di responsive yung toggle kanina ko pa tinitweak ayaw talaga*/
     width: 100vw;
     height: 46.75vh;
     label {
@@ -383,7 +411,7 @@ section {
         width: 25px;
     }
     input:checked + label + .design-three-animated-footer{
-        filter: invert(95%) hue-rotate(180deg);
+        filter: invert(100%) hue-rotate(180deg);
     }
 
     .design-three-animated-footer {                               /*----------------------THREE-----------------------*/           

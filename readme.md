@@ -120,5 +120,7 @@ WD-ProjectName
 | Glowing Effect | To have a glowing effect when hovered on an element. | https://www.youtube.com/watch?v=xnltEHWWjiM |
 | Design 1 Leviatan Logo | A really good looking logo. | https://leviatan.gg/ |
 | Design 4 Fun Plus Phoenix Logo | A really good looking logo. | https://x.com/FPX_Esports |
+| Dark Mode Effect | To have dark mode without using JS. | https://www.youtube.com/watch?v=JONzCyVXa60&t=194s https://www.youtube.com/watch?v=S-T9XoCMwt4 |
+
 
 
