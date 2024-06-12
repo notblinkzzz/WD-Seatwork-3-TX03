@@ -66,9 +66,11 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Dark Mode
+- Glowing Effect
+- Collapsing Search bar
+- Dropdown Menu
+- Visible when hovered
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -116,10 +118,11 @@ WD-ProjectName
 |-|-|-|
 | Search Bar | To have a neat looking search bar. | https://www.youtube.com/watch?v=vkV9GSYaExI |
 | Search Bar Animation | To have a hover animation on the search bar. | https://www.youtube.com/watch?v=AmdIfgxMqY8 |
-| Background Image | To have a background image on the header and footer. | https://unsplash.com/ |
-| Glowing Effect | To have a glowing effect when hovered on an element. | https://www.youtube.com/watch?v=xnltEHWWjiM |
+| Background Image | To have a background image for the landing page. | https://unsplash.com/photos/white-and-blue-striped-textile-jGfIzudYK_Q |
+| Glowing Effect | To have a glowing effect when hovered over an element. | https://www.youtube.com/watch?v=xnltEHWWjiM |
 | Design 1 Leviatan Logo | A really good looking logo. | https://leviatan.gg/ |
 | Design 4 Fun Plus Phoenix Logo | A really good looking logo. | https://x.com/FPX_Esports |
+| Background Image for Static Design 4 | A background image that matches the logo well. | https://unsplash.com/photos/a-red-and-blue-abstract-painting-lhnOvu72BM8 |
 | Dark Mode Effect | To have dark mode without using JS. | https://www.youtube.com/watch?v=JONzCyVXa60&t=194s https://www.youtube.com/watch?v=S-T9XoCMwt4 |
 
 
