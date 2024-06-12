@@ -278,10 +278,7 @@ section {
             }
         }
     }
-
 }
-
-
 
 .design-five-footer {                                           /*----------------------FIVE-----------------------*/
     display: flex;
@@ -368,7 +365,7 @@ section {
 
 
 .container {                            /*---------------------------THIRD ANIMATED--------------------------------*/
-    position: relative;                 /*di responsive yung toggle kanina ko pa tinitweak ayaw talaga*/
+    position: relative;
     width: 100vw;
     height: 46.75vh;
     label {
@@ -414,9 +411,35 @@ section {
     input:checked + label + .design-three-animated-footer{
         filter: invert(100%) hue-rotate(180deg);
     }
-    input:checked + label ~ .design-three-animated-footer .right-div-container .top-div .dark{
+    input:checked + label + .design-three-animated-footer .right-div-container .top-div .dark{
         visibility: hidden;
     }
+    input:checked + label + .design-three-animated-footer .right-div-container .middle-div .fa-youtube:hover{
+        transition: 0s;
+        color: #FF0000;
+        filter: invert(100%) hue-rotate(180deg);
+    }
+    input:checked + label + .design-three-animated-footer .right-div-container .middle-div .fa-facebook:hover{
+        transition: 0s;
+        color: #1877F2;
+        filter: invert(100%) hue-rotate(180deg);
+    }
+    input:checked + label + .design-three-animated-footer .right-div-container .middle-div .fa-twitch:hover{
+        transition: 0s;
+        color: #6441a5;
+        filter: invert(100%) hue-rotate(180deg);
+    }
+    input:checked + label + .design-three-animated-footer .right-div-container .middle-div .fa-discord:hover{
+        transition: 0s;
+        color: #7289da;
+        filter: invert(100%) hue-rotate(180deg);
+    }
+    input:checked + label + .design-three-animated-footer .right-div-container .middle-div .no-color:hover{
+        transition: 0s;
+        filter: invert(100%) hue-rotate(180deg);
+
+    }
+
 
     .design-three-animated-footer {                               /*----------------------THREE-----------------------*/           
         display: flex;
@@ -465,6 +488,10 @@ section {
                     flex-direction: column;
                     gap: .33rem;
                 }
+
+                .with-effect:hover{
+                    color: rgb(0, 0, 0);
+                }
             }
             .right-div-container {
                 display: flex;
@@ -481,16 +508,11 @@ section {
                     padding-right: 25%;
                     height: 40%;
                     width: 100%;
-                    
+
                     .dark {                     /*THIS*/
                         position: absolute;
                         background-color: white;
                     }
-                    .light {                    /*THIS*/
-                        color: black;
-                    }
-
-
                 }
 
                 .middle-div {
@@ -511,9 +533,33 @@ section {
                         font-size: 1.5rem;
                         width: 2.811vw;
                         height: 5vh;
+                        transition: 0.3s;
+                        color: black;
+                    }
+                    .fa-youtube:hover {
                         background-color: white;
                         border: 1.5px black solid;
-                        color: black;
+                        color: #FF0000;
+                    }
+                    .fa-facebook:hover {
+                        background-color: white;
+                        border: 1.5px black solid;
+                        color: #1877F2;
+                    }
+                    .fa-twitch:hover {
+                        background-color: white;
+                        border: 1.5px black solid;
+                        color: #6441a5;
+                    }
+                    .fa-discord:hover {
+                        background-color: white;
+                        border: 1.5px black solid;
+                        color: #7289da;
+                    }
+                    .no-color:hover {
+                        background-color: white;
+                        border: 1.5px black solid;
+                        color: rgba(34, 34, 34, 0.7);
                     }
                 }
                 .bottom-div {

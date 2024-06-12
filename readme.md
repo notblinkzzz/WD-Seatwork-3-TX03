@@ -66,7 +66,7 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- Dark Mode
+- Dark Mode & The text switches when toggled
 - Glowing Effect
 - Collapsing Search bar
 - Dropdown Menu
