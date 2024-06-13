@@ -30,9 +30,9 @@ section {
     align-items: flex-end;
 }
 
-.design-one-footer {                        /*----------------------ONE-----------------------*/
+.design-one-footer {                        /*----------------------FIRST-----------------------*/
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 11.1vh;
     justify-content: space-evenly;
     padding: .7rem 4vw .7rem 4vw;
@@ -53,7 +53,7 @@ section {
     }
 }
 
-.design-two-footer {                    /*----------------------TWO-----------------------*/
+.design-two-footer {                    /*----------------------SECOND-----------------------*/
     display: flex;
     width: 100vw;
     height: 30vh;
@@ -73,21 +73,27 @@ section {
         align-items: center;
 
         .first-row {
-            width: 30%;
+            display: flex;
+            width: 15%;
+            height: 100%;
+            align-items: center;
             .logo {
                 height: 2rem;
             }
         }
         .second-row {
             display: flex;
-            width: 55%;
+            width: 70%;
+            height: 100%;
             justify-content: center;
-
+            align-items: center;
             .navigation {
                 display: flex;
+                width: 100%;
                 flex-direction: row;
-                gap: 10rem;
+                justify-content: space-evenly;
                 color: white;
+                width: 100%;
 
                 a {
                     color: white;
@@ -101,6 +107,7 @@ section {
             gap: 2.5rem;
             align-items: center;
             width: 15%;
+            height: 100%;
 
             .content {
                 color: white;
@@ -149,7 +156,7 @@ section {
     }
 }
 
-.design-three-footer {                               /*----------------------THREE-----------------------*/
+.design-three-footer {                               /*----------------------THIRD STATIC-----------------------*/
     display: flex;
     width: 100vw;
     height: 44vh;
@@ -280,7 +287,89 @@ section {
     }
 }
 
-.design-five-footer {                                           /*----------------------FIVE-----------------------*/
+.design-four-footer {                    /*----------------------FOURTH STATIC-----------------------*/
+    display: flex;
+    width: 100vw;
+    height: 36vh;
+    justify-content: space-between;
+    padding: 3rem 17.5vw 3rem 17.5vw;  /*top right bottom left*/
+    background: #FFFFF0;
+    flex-direction: row;
+
+    p {
+        font-size: .9rem;
+        color: rgb(45, 45, 45);
+    }
+    a {
+        color: rgb(45, 45, 45);
+    }
+    h1 {
+        font-size: 1.9rem;
+        color: #c01e29;
+    }
+
+    & > .first-col {
+        display: flex;
+        width: 33.3333333333%;
+        flex-direction: column;
+        gap: 1rem;
+
+        .social-nav{
+            display: flex;
+            height: 20%;
+            width: 100%;
+            justify-content: space-between;
+            padding-right: 2.7rem;
+
+            align-items: center;
+            .contents {
+                display: flex;
+                height: 5vh;
+                width: 2.5vw;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50px;
+                border: 1.8px black solid;
+                font-size: 1.8rem ;
+                color: #c01e29;
+
+            }
+        }
+        .padding-p {
+            padding-top: 3rem;
+        }
+    }
+    & > .second-col {
+        display: flex;
+        width: 33.3333333333%;
+        padding: 0rem 2vw 0rem 2vw;  /*top right bottom left*/
+        flex-direction: column;
+        gap: 1rem;
+
+        p {
+            font-size: .9rem;
+        }
+    }
+
+    & > .third-col {
+        display: flex;
+        width: 33.3333333333%;
+        height: 100%;
+        flex-direction: column;
+        gap: 1rem;
+
+        .navigation {
+            display: flex;
+            gap: 1rem;
+            width: 100%;
+
+        }
+    }
+
+
+}
+
+.design-five-footer {                                           /*----------------------FIFTH-STATIC----------------------*/
     display: flex;
     width: 100vw;
     height: 23.5vw;
@@ -354,16 +443,168 @@ section {
     }
 }
 
-
-
-
-
-
 /* ANIMATED */
 
+.design-three-animated-footer {                               /*----------------------THIRD ANIMTAED-----------------------*/
+    display: flex;
+    width: 100vw;
+    height: 44vh;
+    justify-content: space-between;
+    padding: 1rem 13vw 5.4rem 13vw;  /*top right bottom left*/
+    background: white;
+    flex-direction: column;
 
+    & > .top-div-container {
+        display: flex;
+        width: 100%;
+        height: 17.5%;
+        align-items: flex-end;
 
-.container {                            /*---------------------------THIRD ANIMATED--------------------------------*/
+        .logo {
+            height: 2rem;
+        }
+    }
+    & > .bottom-div-container {
+        display: flex;
+        width: 100%;
+        padding-top: 2.6rem;
+        height: 82.5%;
+
+        .left-div-container {
+            display: flex;
+            width: 70%;
+            gap: 8rem;
+
+            h1 {
+                color: black;
+                font-size: .9rem;
+                font-weight: 500;
+            }
+            a {
+                color: rgb(59, 59, 59);
+                font-size: .85rem;
+                font-weight: 400;
+            }
+
+            .first-col,
+            .second-col,
+            .third-col{
+                display: flex;
+                flex-direction: column;
+                gap: .33rem;
+            }
+
+            .with-effect:hover{
+                color: rgb(0, 0, 0);
+            }
+        }
+
+        .right-div-container {
+            display: flex;
+            width: 30%;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            .top-div {
+                display: flex;
+                height: 20%;
+                gap: .7rem;
+
+                p {
+                    color: black;
+                }
+                .text-area {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    width: 76%;
+                    gap: .5rem;
+                }
+
+                .toggle-div {
+                    display: flex;
+                    width: 24%;
+                    align-items: flex-end;
+
+                    .outer {
+                        display: flex;
+                        width: 60px;
+                        height: 30px;
+                        background-color: black;
+                        border-radius: 50px;
+                        align-items: center;
+                        padding: 0rem 0vw 0rem .3vw; /*top right bottom left*/
+
+                        .inner {
+                            display: flex;
+                            width: 20px;
+                            height: 20px;
+                            background-color: white;
+                            border-radius: 20px;
+                        }
+                    }
+                }
+            }
+
+            .middle-div {
+                display: flex;
+                height: 30%;
+                width: 100%;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: flex-end;
+                padding-bottom: .5rem;
+                gap: .5rem;
+
+                .contents {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 8px;
+                    font-size: 1.5rem;
+                    width: 2.811vw;
+                    height: 5vh;
+                    background-color: white;
+                    border: 1.5px black solid;
+                    color: black;
+                }
+                .fa-youtube:hover {
+                    background-color: white;
+                    border: 1.5px black solid;
+                    color: #FF0000;
+                }
+                .fa-facebook:hover {
+                    background-color: white;
+                    border: 1.5px black solid;
+                    color: #1877F2;
+                }
+                .fa-twitch:hover {
+                    background-color: white;
+                    border: 1.5px black solid;
+                    color: #6441a5;
+                }
+                .fa-discord:hover {
+                    background-color: white;
+                    border: 1.5px black solid;
+                    color: #7289da;
+                }
+                .no-color:hover {
+                    background-color: white;
+                    border: 1.5px black solid;
+                    color: rgba(34, 34, 34, 0.7);
+                }
+            }
+            .bottom-div {
+                display: flex;
+                justify-content: flex-end;
+                font-size: .8rem;
+                color: grey;
+            }
+        }
+    }
+}
+
+.container-four {                            /*---------------------------FOURTH ANIMATED--------------------------------*/
     position: relative;
     width: 100vw;
     height: 46.75vh;
@@ -407,40 +648,40 @@ section {
     label:active:after{
         width: 25px;
     }
-    input:checked + label + .design-three-animated-footer{
+    input:checked + label + .design-four-animated-footer{
         filter: invert(100%) hue-rotate(180deg);
     }
-    input:checked + label + .design-three-animated-footer .right-div-container .top-div .dark{
+    input:checked + label + .design-four-animated-footer .right-div-container .top-div .dark{
         visibility: hidden;
     }
-    input:checked + label + .design-three-animated-footer .right-div-container .middle-div .fa-youtube:hover{
+    input:checked + label + .design-four-animated-footer .right-div-container .middle-div .fa-youtube:hover{
         transition: 0s;
         color: #FF0000;
         filter: invert(100%) hue-rotate(180deg);
     }
-    input:checked + label + .design-three-animated-footer .right-div-container .middle-div .fa-facebook:hover{
+    input:checked + label + .design-four-animated-footer .right-div-container .middle-div .fa-facebook:hover{
         transition: 0s;
         color: #1877F2;
         filter: invert(100%) hue-rotate(180deg);
     }
-    input:checked + label + .design-three-animated-footer .right-div-container .middle-div .fa-twitch:hover{
+    input:checked + label + .design-four-animated-footer .right-div-container .middle-div .fa-twitch:hover{
         transition: 0s;
         color: #6441a5;
         filter: invert(100%) hue-rotate(180deg);
     }
-    input:checked + label + .design-three-animated-footer .right-div-container .middle-div .fa-discord:hover{
+    input:checked + label + .design-four-animated-footer .right-div-container .middle-div .fa-discord:hover{
         transition: 0s;
         color: #7289da;
         filter: invert(100%) hue-rotate(180deg);
     }
-    input:checked + label + .design-three-animated-footer .right-div-container .middle-div .no-color:hover{
+    input:checked + label + .design-four-animated-footer .right-div-container .middle-div .no-color:hover{
         transition: 0s;
         filter: invert(100%) hue-rotate(180deg);
 
     }
 
 
-    .design-three-animated-footer {                               /*----------------------THREE-----------------------*/           
+    .design-four-animated-footer {                               /*----------------------FOUR------------------------*/           
         display: flex;
         width: 100vw;
         height: 44vh;
