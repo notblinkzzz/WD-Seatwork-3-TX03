@@ -296,13 +296,12 @@ section {
     background: #FFFFF0;
     flex-direction: row;
 
-    p {
+    p,
+    a {
         font-size: .9rem;
         color: rgb(45, 45, 45);
     }
-    a {
-        color: rgb(45, 45, 45);
-    }
+
     h1 {
         font-size: 1.9rem;
         color: #c01e29;
@@ -565,8 +564,8 @@ section {
                     width: 2.811vw;
                     height: 5vh;
                     background-color: white;
-                    border: 1.5px black solid;
                     color: black;
+                    transition: 0.3s;
                 }
                 .fa-youtube:hover {
                     background-color: white;
@@ -676,6 +675,7 @@ section {
     }
     input:checked + label + .design-four-animated-footer .right-div-container .middle-div .no-color:hover{
         transition: 0s;
+        color: black;
         filter: invert(100%) hue-rotate(180deg);
 
     }
@@ -730,7 +730,7 @@ section {
                 }
 
                 .with-effect:hover{
-                    color: rgb(0, 0, 0);
+                    color: black;
                 }
             }
             .right-div-container {
@@ -749,7 +749,7 @@ section {
                     height: 40%;
                     width: 100%;
 
-                    .dark {                     /*THIS*/
+                    .dark {                     /*SWITCHING TEXT*/
                         position: absolute;
                         background-color: white;
                     }
@@ -807,6 +807,173 @@ section {
                     justify-content: flex-end;
                     font-size: .8rem;
                 }
+            }
+        }
+    }
+}
+
+.design-five-animated-footer {                                           /*----------------------FIFTH ANIMATED----------------------*/
+    display: flex;
+    width: 100vw;
+    height: 23.5vw;
+    justify-content: space-between;
+    padding: 5.2rem 0vw 5.2rem 4.4vw;      /*top right bottom left*/
+    align-items: center;
+    background: black;
+
+    p {
+        color: white;
+    }
+    .logo {
+        height: 4.1rem;
+    }
+    & > .left-div-container {
+        height: 100%;
+        width: 31.65vw;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        .left-top-div-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .left-p {
+            color: grey;
+        }
+
+        .left-bottom-div-container {
+            display: flex;
+            padding-left: .39rem;
+            padding-top: .44rem;
+            gap: 1.1rem;
+
+            .content {
+                font-size: 1.5rem;
+                color: #65df29;
+            }
+            .content:hover {
+                color: #66df29aa;
+            }
+        }
+    }
+    & > .right-div-container {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 64vw;
+        justify-content: space-between;   /*top right bottom left*/
+
+        h1 {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 400;
+            padding-bottom: 1rem;
+        }
+        a {
+            color: rgb(188, 188, 188);
+            font-weight: 200;
+        }
+        .pad {
+            padding-top: .1rem;
+            gap: 1rem;
+        }
+        .first-col,
+        .second-col,
+        .third-col,
+        .fourth-col {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            .arrow {
+                visibility: hidden;
+            }
+            .contents:hover .arrow {
+                transition: 0.3s;
+                visibility: visible;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #65df29;
+                padding-left: 1rem;
+            }
+            a:hover{
+                font-weight: 400;
+                color: white;
+            }
+            .contents {
+                display: flex;
+            }
+        }
+        .first-col {
+            .contents {
+                width: 100%;
+            }
+            .who-we {
+                width: 43%;
+            }
+            .champions {
+                width: 53%;
+            }
+            .partners {
+                width: 34%;
+            }
+            .management {
+                width: 64%;
+            }
+            .brand {
+                width: 45%;
+            }
+        }
+        .second-col {
+            padding-left: 3.33rem;
+            .contents {
+                width: 100%;
+            }
+            .teams {
+                width: 36%;
+            }
+            .creators {
+                width: 42%;
+            }
+            .goonz {
+                width: 51%;
+            }
+            .history {
+                width: 35%;
+            }
+            .news {
+                width: 32%;
+            }
+        }
+        .third-col {
+            padding-left: 2.9rem;
+            .contents {
+                width: 100%;
+            }
+            .privacy {
+                width: 36%;
+            }
+            .terms {
+                width: 73%;
+            }
+            
+        }
+
+        .fourth-col {
+            padding-left: 6.7rem;
+            .contents {
+                width: 100%;
+            }
+            .shop {
+                width: 40%;
+            }
+            .return {
+                width: 69%;
+            }
+            .shipping {
+                width: 77%;
             }
         }
     }
