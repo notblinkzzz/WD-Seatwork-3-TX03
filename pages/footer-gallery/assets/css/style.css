@@ -885,6 +885,7 @@ section {
         .fourth-col {
             display: flex;
             flex-direction: column;
+            height: 100%;
             width: 25%;
             .arrow {
                 visibility: hidden;
@@ -908,6 +909,7 @@ section {
         }
         .first-col {
             .contents {
+
                 width: 100%;
             }
             .who-we {
