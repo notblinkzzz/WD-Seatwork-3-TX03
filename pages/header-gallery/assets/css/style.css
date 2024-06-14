@@ -21,6 +21,18 @@ body {
     flex-direction: column;
     background-color: #d3d3d3;
 }
+.header-nav {
+    display: flex;
+    gap: .9rem;
+    margin-left: -2px;
+
+    a {
+        color: rgba(0, 0, 0, 0.742);
+    }
+    a:hover {
+        color: black;
+    }
+}
 
 section {
     width: 100vw;
@@ -30,12 +42,7 @@ section {
     align-items: flex-end;
 }
 
-/* header.design-one-header,
-header.design-one-header * {
-    outline: 2px red dotted;
 
-    padding: .7rem 10vw;
-} */
 
 .design-one-header {
     display: flex;
@@ -62,12 +69,6 @@ header.design-one-header * {
         }
     }
 }
-
-/* Dev */
-/* header.design-two-header,
-header.design-two-header * {
-    outline: 2px red dotted;
-} */
 
 .design-two-header {
     display: flex;
@@ -105,11 +106,6 @@ header.design-two-header * {
     }
 }
 
-/* header.design-three-header,
-header.design-three-header * {
-    outline: 2px red dotted;
-} */
-
 .design-three-header {
     display: flex;
     width: 100vw;
@@ -140,11 +136,6 @@ header.design-three-header * {
         }
     }
 }
-
-/* header.design-four-header,
-header.design-four-header * {
-    outline: 2px red dotted;
-} */
 
 .design-four-header {
     display: flex;
@@ -203,11 +194,6 @@ header.design-four-header * {
         }
     }
 }
-
-/* header.design-five-header,
-header.design-five-header * {
-    outline: 2px red dotted; 
-} */
 
 .design-five-header {
     display: flex;
@@ -457,7 +443,7 @@ header.design-five-header * {
         height: 63%;
         width: 100vw;
     }
-        
+
         .logo {
             position: absolute;
             height: 70px;

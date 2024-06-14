@@ -6,14 +6,13 @@
 <div align="center">
   <a href="https://github.com/notblinkzzz/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/Untitled__2_-removebg-preview (1).png" width="350" height="200">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Seatwork 3</h3>
+  <h3 align="center">Headers and Footers</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+
 </div>
 
 <br />
@@ -55,18 +54,19 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This project is about creating numerous different styles of headers and footers that are static and animated. The purpose of this project is to gain knowledge on how to create headers and footers, and for sure, in the future, this will be really helpful because websites often use headers and footers, so having experience creating one will make it easier for me in the future.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The best key component of my project is having a dark mode. Since we weren't allowed to use Javascript, it was a lot harder to create. But thankfully, I managed to do it. I resourced multiple videos on YouTube and stitched them together to work. There is also a drop-down menu, which is helpful, especially when you have multiple navigations on your header. and a collapsing search bar, which I also found on YouTube.
+
+The technologies that I used were HTML and CSS. I used HTML for the contents and structure of the website and CSS to design the contents in order for it to look good.
+
+Hopefully, in the future I can learn how to make a responsive website that automatically adjusts depending on screen sizes.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
+- Multi-Page Website
 - Dark Mode & The text switches when toggled
+- Hover Effects
 - Glowing Effect
 - Collapsing Search bar
 - Dropdown Menu
@@ -118,12 +118,13 @@ WD-ProjectName
 |-|-|-|
 | Search Bar | To have a neat looking search bar. | https://www.youtube.com/watch?v=vkV9GSYaExI |
 | Search Bar Animation | To have a hover animation on the search bar. | https://www.youtube.com/watch?v=AmdIfgxMqY8 |
-| Background Image | To have a background image for the landing page. | https://unsplash.com/photos/white-and-blue-striped-textile-jGfIzudYK_Q |
 | Glowing Effect | To have a glowing effect when hovered over an element. | https://www.youtube.com/watch?v=xnltEHWWjiM |
-| Design 1 Leviatan Logo | A really good looking logo. | https://leviatan.gg/ |
-| Design 4 Fun Plus Phoenix Logo | A really good looking logo. | https://x.com/FPX_Esports |
-| Background Image for Static Design 4 | A background image that matches the logo well. | https://unsplash.com/photos/a-red-and-blue-abstract-painting-lhnOvu72BM8 |
-| Dark Mode Effect | To have dark mode without using JS. | https://www.youtube.com/watch?v=JONzCyVXa60&t=194s https://www.youtube.com/watch?v=S-T9XoCMwt4 |
-
+| Design 1 Header Leviatan Logo | A really good looking logo. | https://leviatan.gg/ |
+| Design 4 Header Fun Plus Phoenix Logo | A really good looking logo. | https://x.com/FPX_Esports |
+| Design 3 Footer 100Thieves Logo | A really good looking logo. | https://100thieves.com/ |
+| Background Image for Static Header Design 4 | A background image that matches the logo well. | https://unsplash.com/photos/a-red-and-blue-abstract-painting-lhnOvu72BM8 |
+| Dark Mode Effect | To have dark mode without using JS. Combined these two videos | https://www.youtube.com/watch?v=JONzCyVXa60&t=194s https://www.youtube.com/watch?v=S-T9XoCMwt4 |
+| Pinterest | Reference layouts. | https://ph.pinterest.com/ |
+| Icons | To have Icons for my website | https://fontawesome.com/ |
 
 
