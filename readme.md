@@ -62,8 +62,6 @@ The technologies that I used were HTML and CSS. I used HTML for the contents and
 
 Hopefully, in the future I can learn how to make a responsive website that automatically adjusts depending on screen sizes.
 
-https://notblinkzzz.github.io/WD-Seatwork-3-TX03/
-
 ### Key Components
 <!-- TODO: List of Key Components -->
 - Multi-Page Website
@@ -73,6 +71,10 @@ https://notblinkzzz.github.io/WD-Seatwork-3-TX03/
 - Collapsing Search bar
 - Dropdown Menu
 - Visible when hovered
+
+### Deployment Link
+
+https://notblinkzzz.github.io/WD-Seatwork-3-TX03/
 
 ### Technology
 <!-- TODO: List of Technology Used -->
