@@ -130,5 +130,6 @@ WD-ProjectName
 | Dark Mode Effect | To have dark mode without using JS. Combined these two videos | https://www.youtube.com/watch?v=JONzCyVXa60&t=194s https://www.youtube.com/watch?v=S-T9XoCMwt4 |
 | Pinterest | Reference layouts. | https://ph.pinterest.com/ |
 | Icons | To have Icons for my website | https://fontawesome.com/ |
+| Reference Footer for Design 5 |  Reference desigfor my design 5 footer | https://sentinels.gg/ |
 
 
