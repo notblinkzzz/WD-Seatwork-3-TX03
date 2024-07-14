@@ -1,7 +1,7 @@
 & .nav-orig {
     display: flex;
     color: black;
-    position: absolute;
+    position: fixed;
     width: fit-content;
     padding: 1rem;
     background: #2C3E50;
